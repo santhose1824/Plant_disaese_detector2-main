@@ -215,8 +215,7 @@ Future<img.Image> _convertToJpeg(File image) async {
                     },
                     child: Text('Detect'),
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.green,
-                      onPrimary: Colors.white,
+                      foregroundColor: Colors.white, backgroundColor: Colors.green,
                       elevation: 5,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
